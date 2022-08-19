@@ -1,0 +1,81 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar{
+  background-color: #ffffff21;
+  transition: 0.5s;
+}
+.navbar:hover{
+  background-color: #ffffff54;
+}
+
+.simpleandeasy{
+  font-family: 'Black Han Sans', sans-serif;
+  font-size: 12vh;
+  text-align: center;
+}
+
+.img-fluid{
+  width: 1000px;
+}
+
+.easyservermanager{
+  font-family: 'Black Han Sans', sans-serif;
+  font-size: 100px;
+  text-align: center;
+}
+
+.botuse{
+  text-align: center;
+  width: 250px;
+  height: 70px;
+  border-radius: 2rem; 
+  border: none;
+  background-color: rgba(185, 218, 255, 0.589);
+  outline:none;
+  font-size: 30px;
+  transition: 0.5s ease-in-out;
+  font-family: 'Jua', sans-serif;
+
+}
+
+.botuse:hover{
+  border-radius: 10px;
+  background-color: #90fff6c5;
+}
+
+.block1{
+  text-align: center;
+}
+
+.block2{
+  text-align: right;
+}
+
+.block3{
+  text-align: left;
+}
+
+
+/* Background */
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 250vh;
+    overflow-x: hidden;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
